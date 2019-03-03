@@ -1,0 +1,79 @@
+.colPadre{
+  margin: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 80px;
+    height: 100%;
+}
+.spanTitleConfig {
+    background-color: #071eb3;
+    height: 40px;
+    color: #ffffff; 
+    font-weight: 700;
+    font-size: 35px;
+    padding: 2px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: super;
+}
+.divInputRange {
+    width: 100%;
+    background-color: #071eb3;
+}
+
+
+  #divInputNum {
+    height :60% ;
+    width: 50%;
+    
+  }
+
+
+
+
+.input-range {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+  touch-action: none;
+}
+
+.spanInput{
+  text-justify: auto ;
+  font-size: 14px;
+  font-weight:600;
+}
+
+.divResultados {
+  color: #071eb3;
+  font-weight:700;
+  font-size: 26px;
+  font-style: normal;
+  
+}
+.labelResults{
+  font-size: 13px;
+  font-weight:400;
+}
+
+
+
+
+@media only screen and (min-width:320px) and (max-width: 640px){
+#divInputNum {    
+          height : 80% ;
+          width: 100%;
+        }
+
+        .divResultados {
+          color: #071eb3;
+          font-weight:700;
+          font-size: 22px !important;
+          font-style: normal;
+          
+        }
+        
+     
+  }

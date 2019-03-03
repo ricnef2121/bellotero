@@ -1,0 +1,118 @@
+.colPadreTitle{
+    padding-left: 0px;
+    padding-top: 80px;
+}
+.colPadreTestimonio {
+    background-color: none ;
+    padding-top: 5% ;
+    margin: 0px ;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.colPadreCard {
+    padding-left: 0px ;
+    padding-right: 0px;
+}
+.divCard {
+    border-color: #ffffff;
+    background-color: #ffffff;
+}
+.colAuthor {
+    font-weight: 700 ;
+    font-size: 26px ;
+    padding-top: 5px ;
+    padding-left: 0px ;
+    vertical-align: super;
+}
+.colCorreo {
+    font-size: 15px ;
+    padding-left: 0px ;
+    padding-top: 0px ;
+    color: #a5a5a5;
+
+}
+#divTestimonioText{
+     font-size:20px; 
+     font-weight: 700;
+     text-align: justify;
+}
+.spanTitle {
+        background-color: #071eb3;
+        height: 40px;
+        color: #ffffff; 
+        font-weight: 800;
+        font-size: 35px;
+        padding: 5px; 
+        vertical-align: super;
+
+}
+.divPagination {
+    position:absolute;
+    top:-30px;
+    left: 75%;
+    
+    
+}
+.divPadrePagination {
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#divConta {
+    height: 42px; 
+    width: 80px;    
+    background-color: #071eb3;
+    color: #ffffff;
+    text-align: center; 
+    padding-top: 5px;
+    font-family: 'CormorantGaramond';
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0px;
+}
+#divButtonNext {
+        height: 42px ;
+        width: 40px ;
+        background-color: #071eb3;
+        color: #ffffff ;
+        text-align: center ;
+        padding-top: 5px;
+        font-size: 20px;
+        font-weight: 400;
+        border-radius: 0px;    
+}
+#divButtonNext2 {
+    height: 42px ;
+    width: 40px ;
+    background-color: #071eb3;
+    color: #ffffff ;
+    text-align: center ;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0px;
+    padding: 0px;  
+}
+
+@media only screen and (min-width:320px) and (max-width: 731px){
+    
+    .divPagination {
+        position:absolute;
+        top:-25px;
+        left: 50%;
+        
+    }
+    .spanTitle {
+        background-color: #071eb3;
+        height: 40px;
+        color: #ffffff; 
+        font-weight: 800;
+        font-size: 35px;
+        padding: 5px; 
+        vertical-align: super;
+
+}
+   
+}
