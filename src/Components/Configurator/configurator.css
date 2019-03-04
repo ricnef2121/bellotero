@@ -28,9 +28,6 @@
     
   }
 
-
-
-
 .input-range {
   margin-top: 20px;
   margin-left: 0px;
@@ -49,8 +46,9 @@
 .divResultados {
   color: #071eb3;
   font-weight:700;
-  font-size: 26px;
+  font-size: 30px;
   font-style: normal;
+  
   
 }
 .labelResults{
@@ -58,7 +56,27 @@
   font-weight:400;
 }
 
-
+.divInputfather {
+  padding: 0px ;
+  display: flex ;
+  align-items: center ;
+  justify-content: flex-end;
+}
+.divNunIndicador {
+  text-align:right;
+  font-size:28px;
+  font-weight:600;
+}
+.divTitleLeft{
+  padding-left: 14px ;
+  margin:0px ;
+  padding-bottom: 7%;
+}
+.spanSimbolo {
+  font-size: 18px;
+   padding: 0px;
+   margin: -4px;
+}
 
 
 @media only screen and (min-width:320px) and (max-width: 640px){

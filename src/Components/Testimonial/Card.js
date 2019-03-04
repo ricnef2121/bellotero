@@ -47,10 +47,6 @@ class CardTestimonial extends Component {
     }
 }
 
-function mapStateToProps(state) {
-    return {
-        testimomial: state.testimomial
-    };
-}
+
 //export default connect(mapStateToProps,null)(CardTestimonial);
 export default CardTestimonial;

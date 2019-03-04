@@ -7,7 +7,7 @@ class Title extends Component {
      static propTypes = {
         title:PropTypes.array
      } 
-    constructor() {
+    constructor() { 
         super();
     }
     render() {

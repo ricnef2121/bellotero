@@ -12,3 +12,9 @@ export const getDataReviews = _ => {
     return axios.get('https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/master/page1.json')
         .then(res =>res.data.slider)
 }
+
+//consumir api calculator
+export const getDataCalculator = _ => {
+    return axios.get('https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/master/page2.json')
+        .then(res =>res.data.calculator)
+}

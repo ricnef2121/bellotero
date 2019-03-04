@@ -17,9 +17,11 @@ export class Header extends Component {
         getData:PropTypes.func.isRequired,
         menu:PropTypes.array
     }
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
+        //console.log(props)
     }
+    
     componentDidMount() {
         this.props.getData();
       
@@ -29,7 +31,7 @@ export class Header extends Component {
         //console.log(this.props.menu)
         return (
             <div className="Header">
-                <Navbar  expand="lg">
+                <Navbar expand="lg">
                     <Container>
                         <Navbar.Brand><Image src={logo} /></Navbar.Brand>
                         <Navbar.Toggle />
